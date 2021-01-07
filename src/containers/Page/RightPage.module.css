@@ -1,0 +1,75 @@
+/* .Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  border-color: lawngreen;
+  width: 100%;
+  height: 300px;
+
+  text-align: center;
+  padding: 20px 17px 20px 10px;
+  margin: 0px 10px 0px 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.Right Input {
+  width: 100%;
+}
+
+.Button {
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 450px) {
+  .Right {
+    padding: 20px 0px 20px 10px;
+    width: 400px;
+  }
+} */
+
+.Right {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-style: none;
+  width: 320px;
+  height: 50%;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.RightInput {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 6px 0px rgb(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-weight: bold;
+  color: #b7b4c8;
+  font-size: 12px;
+  padding: 0px 20px;
+}
+
+@media (min-width: 450px) {
+  .Right {
+    padding: 20px 0px 20px 10px;
+    width: 80%;
+  }
+
+  .RightInput {
+    margin-top: 30px;
+  }
+}
