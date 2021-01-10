@@ -39,9 +39,10 @@
   border: 1px solid black;
   border-radius: 10px;
   border-style: none;
-  width: 320px;
+  width: 80%;
   height: 50%;
   box-sizing: border-box;
+  margin: auto;
 
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -61,6 +62,12 @@ h3 {
   color: #b7b4c8;
   font-size: 12px;
   padding: 0px 20px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: red;
 }
 
 @media (min-width: 450px) {
