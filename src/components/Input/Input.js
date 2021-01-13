@@ -5,15 +5,15 @@ const input = (props) => {
   return (
     <div className={classes.Input}>
       <div>
-        <form>
-          <input
-            type={props.type}
-            name={props.name}
-            placeholder={props.placeholder}
-            onChange={props.onChange}
-          />
-        </form>
+        <input
+          type={props.type}
+          name={props.name}
+          placeholder={props.placeholder}
+          onChange={props.onChange}
+          required
+        />
       </div>
+      {props.error ? <p>{props.error}</p> : null}
     </div>
   );
 };
